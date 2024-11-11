@@ -13,8 +13,19 @@
 
 <body>
 
+  <!-- Side Navigation Menu -->
+  <div class="side-nav" id="sideNav">
+      <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+      <a href="/">Home</a>
+      <a href="/shop">Shop</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/cart">Cart</a>
+  </div>
+
   <!-- Header Section -->
   <header>
+    <span class="menu-icon" onclick="openNav()">&#9776;</span>
     <div class="logo">
       <h1><a href="/">Kawaii et Petite</a></h1>
     </div>
@@ -30,6 +41,9 @@
       <a href="/cart">Cart (0)</a>
     </div>
   </header>
+
+  <!-- Rest of the content remains the same -->
+</body>
 
   <!-- Main Banner -->
   <section class="main-banner">
