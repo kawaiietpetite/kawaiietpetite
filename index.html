@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Kawaii et Petite</title>
+  <title>Kawaii et Petite - Exquisite Jewelry</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <style>
@@ -33,10 +33,28 @@
       border-bottom: 1px solid #ddd;
     }
 
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+
     .logo h1 {
       font-family: 'Playfair Display', serif;
       font-size: 1.8em;
       color: #333;
+    }
+
+    .logo a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
     }
 
     nav ul {
@@ -208,7 +226,10 @@
   <!-- Header Section -->
   <header>
     <div class="logo">
-      <h1><a href="/">Kawaii et Petite</a></h1>
+      <a href="/">
+        <img src="path_to_logo_image.png" alt="Kawaii et Petite Logo">
+        <h1>Kawaii et Petite</h1>
+      </a>
     </div>
     <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
     <nav>
