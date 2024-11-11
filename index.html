@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kawaii et Petite</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.4.4/build/qrcode.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <h1><a href="/">Kawaii et Petite</a></h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/shop">Shop</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="cart">
+      <a href="/cart">Cart (0)</a>
+    </div>
+  </header>
+
+  <!-- Main Banner -->
+  <section class="main-banner">
+    <div class="banner-content">
+      <h2>Elegance in Every Piece</h2>
+      <p>Discover exquisite jewelry collections handcrafted to perfection.</p>
+      <a href="/shop" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Product Showcase -->
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <!-- Product Item 1 -->
+      <div class="product-card">
+        <img src="path_to_image1.jpg" alt="Elegant Necklace">
+        <h3>Elegant Diamond Necklace</h3>
+        <p class="price">$299</p>
+        <a href="/product/1" class="btn">View Details</a>
+      </div>
+      
+      <!-- Product Item 2 -->
+      <div class="product-card">
+        <img src="path_to_image2.jpg" alt="Gold Earrings">
+        <h3>Gold Hoop Earrings</h3>
+        <p class="price">$129</p>
+        <a href="/product/2" class="btn">View Details</a>
+      </div>
+      
+      <!-- Product Item 3 -->
+      <div class="product-card">
+        <img src="path_to_image3.jpg" alt="Silver Bracelet">
+        <h3>Silver Bracelet</h3>
+        <p class="price">$89</p>
+        <a href="/product/3" class="btn">View Details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Pay QR Code -->
+  <section class="payment">
+    <h2>Pay with Google Pay</h2>
+    <div id="gpay-qr"></div>
+    <p>Scan the QR code to pay securely using Google Pay</p>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-info">
+      <p>&copy; 2024 Kawaii et Petite. All rights reserved.</p>
+      <ul>
+        <li><a href="/privacy">Privacy Policy</a></li>
+        <li><a href="/terms">Terms & Conditions</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
